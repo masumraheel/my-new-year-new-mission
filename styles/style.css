@@ -185,3 +185,75 @@ button:hover{
     color: #070211;
     transition: 2s;
 }
+
+.container.new-promo{
+    width: 100%;
+    height: 735px;
+    background-color: #fff;
+    border-radius: none;
+    margin: 50px auto;
+}
+.promo-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 10rem;
+}
+h5{
+    color: #F00;
+    font-size: 16px;
+    font-weight: 500;
+}
+h2{
+    color: #070211;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.pro-cel1{
+    width: 393px;
+    padding-top: 5px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.celebretion{
+    width: 100%;
+    max-width: 463px;
+}
+
+.celebretion img{
+    width: 385px;
+    border: 15px solid #F00;
+    border-radius: 50%;
+    border-spacing: 50px;
+}
+.promo-dis3{
+   margin: 50px auto;
+}
+h3{
+    color: #F00;
+    text-align: left;
+    font-size: 39px;
+    font-weight: 700;
+    margin-top: 40%;
+}
+.pro-celeb{
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.promo-dis3 img{ 
+   width: 50%;
+   margin-right: 140px;
+}
+
+
+
