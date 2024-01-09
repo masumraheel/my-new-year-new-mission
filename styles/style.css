@@ -351,5 +351,8 @@ footer{
     right: 15rem;
     text-align: left;
 }
-
+.btn-last{
+    position: relative;
+    left: 15rem;
+}
 
