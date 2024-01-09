@@ -104,7 +104,7 @@ img{
     margin-top: 30px;
    
 }
-.btn-party{
+.btn-party, .btn-last{
     margin-left: 50px;
     margin-top: 30px;
     border: none;
@@ -255,5 +255,101 @@ h3{
    margin-right: 140px;
 }
 
+
+
+
+/* footer part */
+footer{
+ width: 100%;
+ max-width: 1600px;
+ height: 600px;
+ margin:0 auto;
+ background-color: #070211;
+}
+
+.container.footer{
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    color:#FFF;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+.con-add{
+    position: relative;
+    right: 12rem;
+    margin-top: 12rem;
+    width: 311px;
+    text-align: left;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.phone-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 12rem;
+}
+.call-to{
+    width: 100%;
+    max-width: 24px;
+    margin: 0 auto;
+}
+.phone-para{
+    width: 100%;
+    max-width: 161px;
+    height: 33px;
+    margin-left: 3px;
+}
+.web-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.search-for{
+    width: 100%;
+    max-width: 24px;
+    margin-top: 5px;
+}
+.line1, .line2{
+    width: 100%;
+    height: 0.5px;
+    background: rgba(148, 114, 114, 0.15);;
+}
+.footer-icons{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.footer-icon, img{
+    width: 53px;
+    margin: 10px auto;
+}
+
+.footer-end{
+    width: 100%;
+    max-width: 1320px;
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFF;
+}
+.last-para{
+    position: relative;
+    right: 15rem;
+    text-align: left;
+}
 
 
