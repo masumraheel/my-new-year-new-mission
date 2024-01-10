@@ -19,7 +19,7 @@
     border-radius: 15px;
     background-repeat: no-repeat;
 }
-.image, .content{
+.image.content{
     position: relative;
     color: #FFF;
     text-align: center;
@@ -63,7 +63,7 @@
     margin-top: 16px;
 }
 
-img{
+.off-img{
     display: block;
     margin-top: 40px;
     margin-left: auto;
@@ -79,7 +79,7 @@ img{
     background-repeat: no-repeat;
     border-radius: 16px;
     margin: 0px auto;
-    margin-top: 40px;
+    margin-top: 25px;
 }
 .party-content{
     display: flex;
@@ -254,31 +254,61 @@ h3{
    width: 50%;
    margin-right: 140px;
 }
-
-.container.best-deal{
+/* portfolio section style */
+.container .portfolio{
     width: 100%;
-    height: 800px;
-    margin: 50px auto;
+    height: 600px;
+    background: rgba(226, 130, 130, 0.1);
+    border-radius: 16px;
+  
 }
-.holidas-deal{
-    padding-top: 2rem;
-   text-align: center;
+
+.portfolio{
+   width: 100%;
+   height: auto;
+   margin: 20px auto;
 }
-.deal-title{
-    color: #070211;
-    font-size: 20px;
+.text-heading{
+    color: #F00;
+    font-size: 19px;
     font-weight: 500;
 }
-.deal-content{
+.text-dis{
     color: #070211;
-    font-size: 60px;
+    font-size: 39px;
     font-weight: 900;
+    text-transform: capitalize;
 }
+
+.d-content{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+}
+.pfolio-image, .pfolio-image2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.p-image1{
+    width: 420px;
+    height: 400px;
+}
+
+
 
 /* footer part start*/
 
 footer{
-    background-color: #070211;
+    background-color:#070211;
+    width: 1600px;
+    margin: 20px auto;
 }
 
 .container.foot{
@@ -362,7 +392,7 @@ footer{
 }
 .last-para{
     position: relative;
-    right: 15rem;
+    right: 10rem;
     text-align: left;
 }
 .btn-last{
