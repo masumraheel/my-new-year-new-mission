@@ -372,7 +372,7 @@ footer{
     flex-direction: row;
     margin: 0 auto;
 }
-.footer-icon, img{
+.footer-icon, .fimg{
     width: 53px;
     margin: 10px auto;
 }
