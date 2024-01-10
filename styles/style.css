@@ -255,19 +255,33 @@ h3{
    margin-right: 140px;
 }
 
-
-
-
-/* footer part */
-footer{
- width: 100%;
- max-width: 1600px;
- height: 600px;
- margin:0 auto;
- background-color: #070211;
+.container.best-deal{
+    width: 100%;
+    height: 800px;
+    margin: 50px auto;
+}
+.holidas-deal{
+    padding-top: 2rem;
+   text-align: center;
+}
+.deal-title{
+    color: #070211;
+    font-size: 20px;
+    font-weight: 500;
+}
+.deal-content{
+    color: #070211;
+    font-size: 60px;
+    font-weight: 900;
 }
 
-.container.footer{
+/* footer part start*/
+
+footer{
+    background-color: #070211;
+}
+
+.container.foot{
     width: 100%;
     height: 600px;
     margin: 0 auto;
@@ -276,7 +290,7 @@ footer{
 .contact{
     display: flex;
     align-items: center;
-    color:#FFF;
+    color:#dac8c8;
     justify-content: space-around;
     margin: 20px auto;
 }
@@ -352,7 +366,6 @@ footer{
     text-align: left;
 }
 .btn-last{
-    position: relative;
-    left: 15rem;
+    padding-left: 5rem;
+    border-radius: 15px;
 }
-
